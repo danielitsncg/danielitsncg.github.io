@@ -1,0 +1,178 @@
+/*por etiqueta*/
+body {
+  height: 900px;
+  background-color: black;
+  background-image: url(../imagenes/fondo.png);
+  background-size: 100% 100%;
+}
+
+h1 {
+  color: rgb(179, 17, 17);
+  font-weight: lighter;
+  margin-top: 200px;
+  text-align: center;
+  font-size: 100px;
+}
+h1 span {
+  color: white;
+}
+
+button {
+  background-color: aliceblue;
+  color: black;
+}
+
+/* por id*/
+
+#barril {
+  bottom: 2%;
+  left: 35%;
+  width: 150px;
+  position: absolute;
+  transform: rotate(18deg);
+  animation-name: barrilAnim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#barril img {
+  width: 100%;
+}
+#barril2 {
+  bottom: 2%;
+  right: 35%;
+  width: 150px;
+  position: absolute;
+  transform: rotate(-18deg);
+  animation-name: barrilAnim2;
+  animation-delay: 6.5s;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+}
+#barril2 img {
+  width: 100%;
+}
+#Kong {
+  top: 0.5%;
+  right: 70%;
+  width: 195px;
+  position: absolute;
+  transform: rotate(-7deg);
+  animation-name: changoAnim;
+  animation-duration: 10s;
+}
+#Kong img {
+  width: 100%;
+}
+
+#logo {
+  top: 2%;
+  right: 2%;
+  width: 200px;
+  position: absolute;
+}
+#logo img {
+  width: 100%;
+}
+
+#logo:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  border-bottom: 2px solid white;
+  border-radius: 50px;
+}
+
+@keyframes changoAnim {
+  0% {
+    top: 0%;
+    right: 70%;
+    transform: rotate(0deg);
+  }
+  15% {
+    top: 10%;
+    right: 54%;
+    transform: rotate(0deg);
+  }
+  30% {
+    top: 20.5%;
+    right: 50%;
+    transform: rotate(0deg);
+  }
+  45% {
+    top: 48.5%;
+    right: 43%;
+    transform: rotate(0deg);
+  }
+  65% {
+    top: 75.5%;
+    right: 34%;
+    transform: rotate(-18deg);
+  }
+  75% {
+    top: 75.5%;
+    right: 34%;
+    transform: rotate(-620deg);
+  }
+  85% {
+    top: 75.5%;
+    right: 34%;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: -100%;
+    right: 34%;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes barrilAnim2 {
+  40% {
+    transform: rotate(-620deg);
+  }
+  85% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes barrilAnim {
+  /*from {
+    transform: rotate(18deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }*/
+  0% {
+    transform: rotate(18deg);
+  }
+  50% {
+    transform: rotate(72deg);
+  }
+  100% {
+    transform: rotate(18deg);
+  }
+}
+
+#btnInicio {
+  width: 300px;
+  height: 60px;
+  background-color: white;
+  margin-left: 40%;
+  color: #7e0707;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 30px;
+  box-shadow: -1px 18px 12px 5px rgba(214, 213, 213, 0.37);
+}
+
+li {
+  color: #ffff;
+}
+
+/*por clase*/
+
+.activo {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
