@@ -1,0 +1,63 @@
+@media (max-width: 500px) {
+  header nav {
+    width: 50px;
+  }
+  header #menuMovil {
+    display: block;
+  }
+  header #menuWeb {
+    display: none;
+  }
+
+  #about .col,
+  #contacto .col {
+    width: 100%;
+  }
+  #proyectos {
+    height: auto;
+  }
+  #proyectos .mispro {
+    margin-top: 55%;
+  }
+  #main video {
+    display: none;
+  }
+  #main #overlay h2 {
+    margin-top: 223px;
+    font-size: 5rem;
+  }
+  #proyectos .cuadros {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  #proyectos .cuadros .mitad2 button {
+    margin-left: 26%;
+    margin-bottom: 5%;
+  }
+
+  #frase {
+    height: 160px;
+    margin-top: 5%;
+  }
+  #frase h5 {
+    font-size: 3rem;
+  }
+  .input1,
+  .input2 {
+    height: 30px;
+    width: 100%;
+  }
+  #about,
+  #contacto {
+    padding-left: 7%;
+    padding-right: 8%;
+  }
+
+  #contacto .col:nth-child(2) {
+    margin-top: 15%;
+    padding-bottom: 20px;
+  }
+  #contacto .col .mapilla {
+    margin-left: 7%;
+  }
+}

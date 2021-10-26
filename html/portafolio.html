@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/portafolio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Festive&family=Open+Sans:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/mediaquerys.css">
+    <link rel="stylesheet" href="./css/print.css" media="print">
     <link href="./css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Mi Portafolio</title>
@@ -21,11 +23,13 @@
         <h1>Mi Portafolio</h1>
       </div>
       <nav class="item">
-        <ul>
+        <ul id="menuWeb">
           <li><a href="#main" data-scroll>Inicio</a></li>
           <li><a href="#about" data-scroll>Sobre mi</a></li>
           <li><a href="#proyectos" data-scroll>Portafolio</a></li>
           <li><a href="#contacto" data-scroll>Contacto</a></li>
+        </ul>
+        <ul id="menuMovil">
           <li><a href=""><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
@@ -53,7 +57,7 @@
             Aperiam unde voluptatem ad quasi repellat quia, placeat, voluptatum sequi adipisci culpa
              ab eveniet cupiditate tempora, rem totam deserunt.</p></div>
     </section>
-    <div id="proyectos"> Mis proyectos <br>
+    <div id="proyectos"> <p class="mispro">Mis Proyectos</p> <br>
       <div class="cuadros">
         <div class="mitad1">
           <img src="./imagenes/compu.jpg" alt="">
@@ -116,7 +120,7 @@
         <button class="btn btnPrimary">Enviar</button>
       </div>
       <div class="col">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13767.521436897978!2d-107.87637677789205!3d30.38275503914212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86dcad4bca553657%3A0xabda349ebe8ed0fe!2sInstituto%20Tecnol%C3%B3gico%20Superior%20de%20Nuevo%20Casas%20Grandes!5e0!3m2!1ses-419!2smx!4v1634781321576!5m2!1ses-419!2smx" width="100%" height="550px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe class="mapilla" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13767.521436897978!2d-107.87637677789205!3d30.38275503914212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86dcad4bca553657%3A0xabda349ebe8ed0fe!2sInstituto%20Tecnol%C3%B3gico%20Superior%20de%20Nuevo%20Casas%20Grandes!5e0!3m2!1ses-419!2smx!4v1634781321576!5m2!1ses-419!2smx" width="100%" height="550px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
     <div id="derechos">

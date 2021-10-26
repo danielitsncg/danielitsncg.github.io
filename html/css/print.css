@@ -1,0 +1,15 @@
+@media print {
+  #main video {
+    display: none;
+  }
+
+  #body {
+    background-color: white;
+  }
+  header #menuMovil {
+    display: block;
+  }
+  header #menuWeb {
+    display: none;
+  }
+}
