@@ -54,6 +54,7 @@ window.onload = function () {
     });
 
     if (encontro) {
+      //redireccion
       location.href = "./index.html";
     } else {
       document.getElementById("error").innerHTML = "Credenciales Incorrectas";
