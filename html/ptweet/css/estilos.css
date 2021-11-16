@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght');
 :root {
   --p-amarillo: #f3d13f;
   --p-morado: #c516c5;
@@ -12,7 +12,7 @@
 }
 body {
   background: black;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 #login {
@@ -142,6 +142,7 @@ main {
 .imgUser {
   width: 50px;
   height: 50px;
+  margin-top: 2%;
   border-radius: 50%;
   border: 2px solid var(--p-amarillo);
 }
@@ -186,4 +187,10 @@ main {
 }
 .post .textTweet {
   padding-top: 10px;
+}
+.post > div:last-child > div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5%;
+  font-size: 0.8rem;
 }
