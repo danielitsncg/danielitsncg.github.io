@@ -6,7 +6,6 @@ const decirHola =()=>{
 //decirHola();
 
 //const dHi=(name)=>`Hi ${name}`;
-
 //console.log(dHi("jose"));
 
 const sum = (a,b) => a + b
